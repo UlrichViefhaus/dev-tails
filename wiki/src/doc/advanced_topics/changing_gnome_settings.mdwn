@@ -1,0 +1,81 @@
+[[!meta title="Changing settings of the Gnome Desktop"]]
+
+Tails uses the [[Gnome desktop|doc/about/features]] for a comfortable user experience and its Assistive Technologies . Gnome3 uses a configuration system called dconf to store the settings of Gnome software. All settings of newer Gnome software are saved in your home directory in the hidden .dconf folder. Older ones used the deprecated gconf system.
+
+<div class="caution">
+
+<p>The default configuration of Tails tries to protect you as much as possible. If you chose settings that differ from that defaults, it could mitigate the protection attempts of Tails. Please make sure that you understand the consequences of the settings you are going to change.</p>
+
+</div>
+
+Since Tails is amnesic, any changes to the settings have to be done at the start of every season. To keep those settings you have to use the [[<span class="guilabel">dotfiles</span> persistence feature|doc/first_steps/persistence/configure#dotfiles]].
+
+
+<p>To change settings using <span class="application">gsettings</span>:
+
+1. Open a terminal from the menu: <span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Favorites</span>&nbsp;▸
+  <span class="guimenuitem">Terminal</span>
+</span>
+2. Enter <span class="command">gsettings set #key #value</span> and press <span class="keycap">Enter</span>
+
+Replace #key with the name of the setting you want to change and #value with the value of the setting.
+
+For example:
+<span class="command">gsettings set org.gnome.nautilus.preferences default-sort-order type</span> changes the default sort order of the file explorer Nautilus to type.
+
+
+<p>To get the current value of a setting with<span class="application">gsettings</span>:
+
+1. Open a terminal from the menu: <span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Favorites</span>&nbsp;▸
+  <span class="guimenuitem">Terminal</span>
+</span>
+2. Enter <span class="command">gsettings get #key</span> and press <span class="keycap">Enter</span>
+
+Replace #key with the name of the setting from which you want to get the current value.
+
+For example:
+<span class="command">gsettings get org.gnome.nautilus.preferences default-sort-order</span> prints the current value of sort order of the file explorer Nautilus.
+
+
+<p>To reset the value of a setting to the default value with <span class="application">gsettings</span>:
+
+1. Open a terminal from the menu: <span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Favorites</span>&nbsp;▸
+  <span class="guimenuitem">Terminal</span>
+</span>
+2. Enter <span class="command">gsettings reset #key</span> and press <span class="keycap">Enter</span>
+
+Replace #key with the name of the setting you want to reset to the default value.
+
+For example:
+<span class="command">gsettings get org.gnome.nautilus.preferences default-sort-order</span> sets the value of the sort order of the file explorer Nautilus to the default value.
+
+
+<p>To show which values an option can be set to with <span class="application">gsettings</span>:
+
+1. Open a terminal from the menu: <span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Favorites</span>&nbsp;▸
+  <span class="guimenuitem">Terminal</span>
+</span>
+2. Enter <span class="command">gsettings range #key</span> and press <span class="keycap">Enter</span>
+
+Replace #key with the name of the setting from which you want to know the values.
+
+For example:
+<span class="command">gsettings range org.gnome.nautilus.preferences default-sort-order</span> shows the possible values for the default sort order of Nautilus.
+
+
+<p>To get more information about <span class="application">gsettings</span>:
+
+1. Open a terminal from the menu: <span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Favorites</span>&nbsp;▸
+  <span class="guimenuitem">Terminal</span>
+</span>
+2. Enter <span class="command">man gsettings</span> and press <span class="keycap">Enter</span>
