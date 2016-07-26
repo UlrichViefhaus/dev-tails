@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: changing_gnome_settings\n"
+"POT-Creation-Date: 2016-07-22 13:14+0200\n"
+"PO-Revision-Date: 2016-07-26 18:21+0100\n"
+"Last-Translator: Tails translators <tails@boum.org>\n"
+"Language-Team: Tails translators <tails@boum.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Changing settings of the Gnome Desktop\"]]\n"
+msgstr "[[!meta title=\"Änder der Einstellungen des Gnome Desktop\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "Tails uses the [[Gnome desktop|doc/about/features]] for a comfortable user experience and its Assistive Technologies. Gnome3 uses a configuration system called dconf to store the settings of Gnome software. All settings of newer Gnome software are saved in your home directory in the hidden folder <span class=\"filename\">~/.dconf</span>. Older ones used the deprecated gconf system.\n"
+msgstr "Tail nutzt für ein bequeme Bedienbarkeit und wegen der Assistenzfunktionen den [[Gnome desktop|doc/about/features]]. Gnome3 nutzt das Konfigurationssystem dconf, um die Einstellungen der Gnome Software zu speichern. Alle Einstellung neuerer Gnome Software werden in dem versteckten Verzeichnis <span class=\"filename\">~/.dconf</span> des Heimverzeichnisses gespeichert. Ältere Gnome Software nutzt dafür das veraltete System gconf.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>The default configuration of Tails tries to protect you as much as possible. If you chose settings that differ from that defaults, it could mitigate the protection attempts of Tails. Please make sure that you understand the consequences of the settings you are going to change.</p>\n"
+msgstr "<p>Die Standardeinstellungen von Tails versuchen dich so gut wie möglich zu schützen. Falls du von diesen Standards abweichst, könnte es den Schutz von Tails unterlaufen. Versichere dich daher, ob du alle Konsequenzen einer geplanten Änderung der Einstellungen verstanden hast.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "Since Tails is amnesic, any changes to the settings have to be done at the start of every season. To keep those settings you have to use the [[<span class=\"guilabel\">dotfiles</span> persistence feature|doc/first_steps/persistence/configure#dotfiles]].\n"
+msgstr "Da Tails gedächtnisslos ist, müssen alle Änderungen zu Beginn einer Sitzung wiederholt werden. Um die Einstellungen dauerhaft zu speichern, muss [[<span class=\"guilabel\">dotfiles</span> persistence feature|doc/first_steps/persistence/configure#dotfiles]] aktiviert werden.\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How-To"
+msgstr "How-To"
+
+#. type: Plain text
+#, no-wrap
+msgid "##Change a setting\n"
+msgstr "##Einstellungen ändern\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>To change settings using <span class=\"application\">gsettings</span>:\n"
+msgstr "<p>Eine Einstellungen mittels <span class=\"application\">gsettings</span> ändern:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Open a terminal from the menu: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Enter <span class=\"command\">gsettings set #key #value</span> and press <span class=\"keycap\">Enter</span>\n"
+msgstr ""
+"1. Öffne ein Terminalfenster: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Gib den Befehl <span class=\"command\">gsettings set #key #value</span> ein und drücke <span class=\"keycap\">Enter</span>\n"
+
+#. type: Plain text
+msgid ""
+"Replace #key with the name of the setting you want to change and #value with "
+"the value of the setting."
+msgstr ""
+"Gib statt #key den Namen der Einstellung, die du ändern willst ein, und "
+"deren neuen Wert für #value."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For example:\n"
+"<span class=\"command\">gsettings set org.gnome.nautilus.preferences default-sort-order type</span> changes the default sort order of the file explorer Nautilus to type.\n"
+msgstr ""
+"Beispiel:\n"
+"<span class=\"command\">gsettings set org.gnome.nautilus.preferences default-sort-order type</span> ändert die Sortierreihenfolge des Dateibrowsers Nautilus zu \"type\".\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "##Get the current value of a setting\n"
+msgstr "#Zeige den aktuellen Wert einer Einstellung an\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>To get the current value of a setting with<span class=\"application\">gsettings</span>:\n"
+msgstr "<p>Zeige den aktuellen Wert einer Einstellung mittels <span class=\"application\">gsettings</span>:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Open a terminal from the menu: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Enter <span class=\"command\">gsettings get #key</span> and press <span class=\"keycap\">Enter</span>\n"
+msgstr ""
+"1. Öffne ein Terminalfenster: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Gib den Befehl <span class=\"command\">gsettings get #key</span> ein und drücke <span class=\"keycap\">Enter</span>\n"
+
+#. type: Plain text
+msgid ""
+"Replace #key with the name of the setting from which you want to get the "
+"current value."
+msgstr ""
+"Gib statt #key den Namen der Einstellung an, von der du dir den aktuellen "
+"Wert anzeigen lassen möchtest."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For example:\n"
+"<span class=\"command\">gsettings get org.gnome.nautilus.preferences default-sort-order</span> prints the current value of sort order of the file explorer Nautilus.\n"
+msgstr ""
+"Beispiel:\n"
+"<span class=\"command\">gsettings get org.gnome.nautilus.preferences default-sort-order</span> zeigt die eingestellte Sortierreihenfolge des Dateibrowsers Nautilus an.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "##Restore the default value of a setting\n"
+msgstr "##Den Standardwert einer Einstellung wiederherstellen\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>To reset the value of a setting to the default value with <span class=\"application\">gsettings</span>:\n"
+msgstr "<p>Den Standardwert einer Einstellung mittels <span class=\"application\">gsettings</span> wiederherstellen:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Open a terminal from the menu: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Enter <span class=\"command\">gsettings reset #key</span> and press <span class=\"keycap\">Enter</span>\n"
+msgstr ""
+"1. Öffne ein Terminalfenster: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Gib den Befehl <span class=\"command\">gsettings reset #key</span> ein und drücke <span class=\"keycap\">Enter</span>\n"
+
+#. type: Plain text
+msgid ""
+"Replace #key with the name of the setting you want to reset to the default "
+"value."
+msgstr ""
+"Ersetzte #key mit dem Namen der Einstellung, deren Standardwert du "
+"wiederherstellen möchtest"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For example:\n"
+"<span class=\"command\">gsettings get org.gnome.nautilus.preferences default-sort-order</span> sets the value of the sort order of the file explorer Nautilus to the default value.\n"
+msgstr ""
+"Beispiel:\n"
+"<span class=\"command\">gsettings get org.gnome.nautilus.preferences default-sort-order</span> stellt den Standardwert der Sortierreihenfolge des Dateibrowsers Nautilus wieder her.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "##Get possible values of a setting\n"
+msgstr "##Alle möglichen Werte einer Einstellung anzeigen\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>To show which values an option can be set to with <span class=\"application\">gsettings</span>:\n"
+msgstr "<p>Alle möglichen Werte einer Einstellung mittels <span class=\"application\">gsettings</span> anzeigen:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Open a terminal from the menu: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Enter <span class=\"command\">gsettings range #key</span> and press <span class=\"keycap\">Enter</span>\n"
+msgstr ""
+"1. Öffne ein Terminalfenster: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Gib den Befehl <span class=\"command\">gsettings range #key</span> ein und drücke <span class=\"keycap\">Enter</span>\n"
+
+#. type: Plain text
+msgid ""
+"Replace #key with the name of the setting from which you want to know the "
+"values."
+msgstr ""
+"Ersetze #key mit dem Namen der Einstellung, deren mögliche Werte du wissen "
+"möchtest."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For example:\n"
+"<span class=\"command\">gsettings range org.gnome.nautilus.preferences default-sort-order</span> shows the possible values for the default sort order of Nautilus.\n"
+msgstr ""
+"Beispiel:\n"
+"<span class=\"command\">gsettings range org.gnome.nautilus.preferences default-sort-order</span> zeigt alle möglichen Werte für die Sortierreihenfolge des Dateibrowsers Nautilus an.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "##Get more infos about gsettings\n"
+msgstr "##Weitere Informationen über gsettings\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>To get more information about <span class=\"application\">gsettings</span>:\n"
+msgstr "<p>Weitere Informationen über <span class=\"application\">gsettings</span> anzeigen:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Open a terminal from the menu: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Enter <span class=\"command\">man gsettings</span> and press <span class=\"keycap\">Enter</span>\n"
+msgstr ""
+"1. Öffne ein Terminalfenster: <span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Favorites</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Terminal</span>\n"
+"</span>\n"
+"2. Gib den Befehl <span class=\"command\">man gsettings</span> ein und drücke <span class=\"keycap\">Enter</span>\n"
