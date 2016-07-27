@@ -3,33 +3,33 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: known_issues\n"
 "POT-Creation-Date: 2016-06-08 10:47+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-07-27 11:52+0100\n"
+"Last-Translator: Tails translators <tails@boum.org>\n"
+"Language-Team: Tails translators <tails@boum.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Known issues\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Bekannte Probleme\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=2]]\n"
-msgstr ""
+msgstr "[[!toc levels=2]]\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Problems starting Tails\n"
-msgstr ""
+msgstr "Probleme beim Start von Tails\n"
 
 #. type: Plain text
 msgid ""
@@ -46,17 +46,17 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "Problematic USB sticks\n"
-msgstr ""
+msgstr "Problematische USB Sticks\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"sandisk\"></a>\n"
-msgstr ""
+msgstr "<a id=\"sandisk\"></a>\n"
 
 #. type: Title ###
 #, no-wrap
 msgid "SanDisk"
-msgstr ""
+msgstr "SanDisk"
 
 #. type: Plain text
 msgid ""
@@ -65,52 +65,59 @@ msgid ""
 "`live-media=removable` boot parameter, which [[is dangerous|doc/first_steps/"
 "bug_reporting/tails_does_not_start#entirely]]."
 msgstr ""
+"Viele USB Sticks von SanDiks wurden so programmiert, dass sie sich am  "
+"System als Festplatte und nicht als Wechseldatenträger anmelden. Dies "
+"erfordert das Entfernen des Bootparameters `live-media=removable`, was als "
+"[[gefährlich|doc/first_steps/bug_reporting/tails_does_not_start#entirely]] "
+"eingestuft wird."
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Edge 8GB"
-msgstr ""
+msgstr "SanDisk Cruzer Edge 8GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Extreme USB 3.0 16GB, 32GB and 64GB"
-msgstr ""
+msgstr "SanDisk Cruzer Extreme USB 3.0 16GB, 32GB and 64GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Fit USB 2.0 8GB, 16GB, and 32G"
-msgstr ""
+msgstr "SanDisk Cruzer Fit USB 2.0 8GB, 16GB, and 32G"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Force 8GB"
-msgstr ""
+msgstr "SanDisk Cruzer Force 8GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Glide 4GB, 8GB and 16GB"
-msgstr ""
+msgstr "SanDisk Cruzer Glide 4GB, 8GB and 16GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Switch USB 2.0 8GB and 32GB"
-msgstr ""
+msgstr "SanDisk Cruzer Switch USB 2.0 8GB and 32GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer USB 3.0 64GB"
-msgstr ""
+msgstr "SanDisk Cruzer USB 3.0 64GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Blade 4GB, 8GB, and 32GB"
-msgstr ""
+msgstr "SanDisk Cruzer Blade 4GB, 8GB, and 32GB"
 
 #. type: Bullet: '* '
 msgid "SanDisk Cruzer Facet"
-msgstr ""
+msgstr "SanDisk Cruzer Facet"
 
 #. type: Bullet: '* '
 msgid ""
 "SanDisk Cruzer Orbiter 32GB (hangs at installation time but boots fine "
 "afterwards)"
 msgstr ""
+"SanDisk Cruzer Orbiter 32GB (friert bei der Installation ein aber kann "
+"danach problemlos booten)"
 
 #. type: Bullet: '* '
 msgid "SanDisk Ultra 16GB, 32GB"
-msgstr ""
+msgstr "SanDisk Ultra 16GB, 32GB"
 
 #. type: Plain text
 msgid ""
@@ -121,40 +128,49 @@ msgid ""
 "Windows 8 logo on its packaging, then that drive will function as a "
 "removable disk and should work with Tails."
 msgstr ""
+"SanDisk hatte die Produktion von Flash Laufwerken, die sich als Festplatte "
+"ausgeben, 2012 begonnen, um die neuen Anforderungen der Windows 8 "
+"Zertifizierung zu erfüllen. Die Produktion wurde Mitte 2014 wieder "
+"umgestellt. Diejenigen Flashlaufwerke, die die Zertifizierung erhalten "
+"haben, haben auf ihrer Verpackung das WIndows 8 Logo aufgedruckt. Wenn kein "
+"Windows 8 Logo auf der Verpackung abgedruckt ist, arbeitet das Laufwerk als "
+"Wechseldatenräger und sollte mit Tails funktionieren."
 
 #. type: Plain text
 msgid "See also [[!tails_ticket 6397]]."
-msgstr ""
+msgstr "Siehe auch [[!tails_ticket 6397]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"pny\"></a>\n"
-msgstr ""
+msgstr "<a id=\"pny\"></a>\n"
 
 #. type: Title ###
 #, no-wrap
 msgid "PNY"
-msgstr ""
+msgstr "PNY"
 
 #. type: Plain text
 msgid ""
 "When installing Tails, PNY USB sticks have problems with the constant write "
 "load and are prone to failure."
 msgstr ""
+"USB Sticks von PNY haben ein Problem mit den konstant hohen Schreibzugriffen "
+"bei der Installation von Tails und sind daher fehleranfällig."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"aegis\"></a>\n"
-msgstr ""
+msgstr "<a id=\"aegis\"></a>\n"
 
 #. type: Title ###
 #, no-wrap
 msgid "Aegis"
-msgstr ""
+msgstr "Aegis"
 
 #. type: Bullet: '* '
 msgid "Aegis Secure Key USB 2.0"
-msgstr ""
+msgstr "Aegis Secure Key USB 2.0"
 
 #. type: Plain text
 msgid ""
@@ -162,6 +178,10 @@ msgid ""
 "hardware-encrypted USB sticks to lock down, and the PIN must be entered "
 "again (fast) in order to complete the boot."
 msgstr ""
+"Während des Bootvorgangs wird die USB Stromversorgung kurz unterbrochen. "
+"Dies führt dazu, dass die Aegis Hardwareverschlüsselung den USB Stick "
+"sperrt. Der PIN muss dann (schnell) eingegeben werden, um den USB Stick zu "
+"entsperren und den Bootvorgang abschließen zu können."
 
 #. type: Bullet: '* '
 msgid "Aegis Secure Key USB 3.0"
