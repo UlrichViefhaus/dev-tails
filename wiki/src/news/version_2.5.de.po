@@ -3,33 +3,33 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: version_2.5.de\n"
 "POT-Creation-Date: 2016-08-02 11:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-08-03 14:48+0100\n"
+"Last-Translator: Tails translators <tails@boum.org>\n"
+"Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta date=\"Tue Aug 2 12:34:56 2016\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Donnerstag 2. August 12:34:56 2016\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 2.5 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 2.5 ist da\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag announce]]\n"
-msgstr ""
+msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 msgid ""
@@ -37,45 +37,52 @@ msgid ""
 "Numerous_security_holes_in_2.4]] and users should upgrade as soon as "
 "possible."
 msgstr ""
+"Dieses Release schließt [[zahlreiche Sicherheitslücken|security/"
+"Numerous_security_holes_in_2.4]] und Nutzer sollten so schnell wie möglich "
+"ein Upgrade durchführen."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=1]]\n"
-msgstr ""
+msgstr "[[!toc levels=1]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "Changes"
-msgstr ""
+msgstr "Änderungen"
 
 #. type: Title ##
 #, no-wrap
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 #. type: Title ##
 #, no-wrap
 msgid "Upgrades and changes"
-msgstr ""
+msgstr "Aktualisierungen und Änderungen"
 
 #. type: Plain text
 msgid "- Update *Tor Browser* to 6.0.3, based on *Firefox* 45.3."
 msgstr ""
+"- Aktualisierung des *Tor Browser* auf Version 6.0.3, welcher auf *Firefox* "
+"45.3 basiert"
 
 #. type: Plain text
 msgid "- Upgrade *Icedove* to 45.1. ([[!tails_ticket 11530]])"
-msgstr ""
+msgstr "- Upgrade von *Icedove* auf Version 45.1. ([[!tails_ticket 11530]])"
 
 #. type: Title ##
 #, no-wrap
 msgid "Fixed problems"
-msgstr ""
+msgstr "Korrekturen"
 
 #. type: Bullet: '- '
 msgid ""
 "The automatic account configuration of *Icedove* used to freeze when "
 "connecting to some email providers. ([[!tails_ticket 11486]])"
 msgstr ""
+"Die automatische Accounterstellung von  *Icedove* stürzte bei der Verbindung "
+"zu manchen Mailprovidern reproduzierbar ab. ([[!tails_ticket 11486]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -83,18 +90,26 @@ msgid ""
 "\"The message could not be sent using Outgoing server (SMTP)  mail.riseup."
 "net for an unknown reason.\" ([[!tails_ticket 10933]])"
 msgstr ""
+"In manchen Fällen kam es beim Senden von Mails mit *Icedove* zu folgendem "
+"Fehler: \"The message could not be sent using Outgoing server (SMTP)  mail."
+"riseup.net for an unknown reason.\" ([[!tails_ticket 10933]])"
 
 #. type: Bullet: '- '
 msgid ""
 "A spurious error message used to sometimes appear when creating an account "
 "in *Icedove* and providing its password.  ([[!tails_ticket 11550]])"
 msgstr ""
+"Sporadisch trat ein Fehler beim Erstellen eines Benutzerkontos in *Icedove* "
+"auf, wenn ein Passwort angegeben wurde. ([[!tails_ticket 11550]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Fix some time synchronization problems, by replacing obsolete and unreliable "
 "servers, and decreasing a timeout. ([[!tails_ticket 11577]])"
 msgstr ""
+"Einige Fehler bei der Synchronisierung wurden gelöst, indem veraltete und "
+"instabile Server ersetzt und die Zeit bis zu einem Timeout vergrößert "
+"wurden. ([[!tails_ticket 11577]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -102,58 +117,71 @@ msgid ""
 "with QXL video: vastly improve graphics performance and fix visual artifacts "
 "in *Tor Browser*. ([[!tails_ticket 11500]], [[!tails_ticket 11489]])"
 msgstr ""
+"[[Virtuelle Maschinen mit KVM|doc/advanced_topics/virtualization/virt-"
+"manager]] mit dem QXL Videotreiber: Große Geschwindigkeitssteigerungen und "
+"Beseitigung einiger Grafikfehler im *Tor Browser*. ([[!tails_ticket 11500]], "
+"[[!tails_ticket 11489]])"
 
 #. type: Plain text
 msgid ""
 "For more details, read our [changelog](https://git-tails.immerda.ch/tails/"
 "plain/debian/changelog)."
 msgstr ""
+"Details finden Sie in unserem [Changelog](https://git-tails.immerda.ch/tails/"
+"plain/debian/changelog)."
 
 #. type: Title #
 #, no-wrap
 msgid "Known issues"
-msgstr ""
+msgstr "Bekannte Fehler"
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
 msgstr ""
+"Sehen Sie auch in unserer Liste mit  [[dauerhaften Probleme|support/"
+"known_issues]] nach."
 
 #. type: Title #
 #, no-wrap
 msgid "Get Tails 2.5"
-msgstr ""
+msgstr "Holen Sie sich Tails 2.5"
 
 #. type: Plain text
 msgid "- To install, follow our [[installation instructions|install]]."
 msgstr ""
+"- Folgen Sie zur Installation unseren [[Installationhinweisen|install]]."
 
 #. type: Plain text
 msgid "- To upgrade, an automatic upgrade is available from 2.4 to 2.5."
 msgstr ""
+"- Um ein Upgrade durchzuführen, steht ein automatisches Upgrade von 2.4 nach "
+"2.5 zur Verfügung."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "  If you cannot do an automatic upgrade or if you fail to start after an\n"
 "  automatic upgrade, please try to do a [[manual upgrade|upgrade]].\n"
-msgstr ""
+msgstr "Falls Sie kein automatisches Update durchführen können oder das System nach dem automatischen Update nicht mehr startet, versuchen Sie bitte ein [[manuelle Upgrade|upgrade]].\n"
 
 #. type: Plain text
 msgid "- [[Download Tails 2.5.|install/download]]"
-msgstr ""
+msgstr "- [[Tails 2.5. downloaden|install/download]]"
 
 #. type: Title #
 #, no-wrap
 msgid "What's coming up?"
-msgstr ""
+msgstr "Was kommt danach?"
 
 #. type: Plain text
 msgid "Tails 2.6 is [[scheduled|contribute/calendar]] for September 13."
-msgstr ""
+msgstr "Tails 2.6 ist für den 13. September [[geplant|contribute/calendar]]."
 
 #. type: Plain text
 msgid "Have a look at our [[!tails_roadmap]] to see where we are heading to."
 msgstr ""
+"Auf unserer [[!tails_roadmap]] können Sie sehen, was wir als nächstes "
+"vorhaben."
 
 #. type: Plain text
 msgid ""
@@ -161,3 +189,6 @@ msgid ""
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|about/contact#tails-dev]]!"
 msgstr ""
+"Wir brauchen Ihre Hilfe und es gibt viele Möglichkeiten, [[Tails zu "
+"unterstützen|contribute]] ([[Spenden|contribute/how/donate]] ist nur eine "
+"davon). [[Sprich uns an|about/contact#tails-dev]]!"
