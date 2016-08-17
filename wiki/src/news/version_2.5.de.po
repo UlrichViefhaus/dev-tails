@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-08-02 11:08+0200\n"
-"PO-Revision-Date: 2016-08-14 10:53+0200\n"
+"PO-Revision-Date: 2016-08-17 21:54+0100\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Tails translators <tails@boum.org>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,37 +80,42 @@ msgid ""
 "The automatic account configuration of *Icedove* used to freeze when "
 "connecting to some email providers. ([[!tails_ticket 11486]])"
 msgstr ""
-"Die automatische Konfiguration für Konten in *Icedove* ist mit einigen E-"
+"Die automatische Konfiguration für Konten in *Icedove* ist bei einigen E-"
 "Mail-Providern eingefroren. ([[!tails_ticket 11486]])"
 
+# Could anyone repduce the error in an german environment to see the real error message?
 #. type: Bullet: '- '
+#, fuzzy
 msgid ""
 "In some cases sending an email with *Icedove* used to result in the error: "
 "\"The message could not be sent using Outgoing server (SMTP)  mail.riseup."
 "net for an unknown reason.\" ([[!tails_ticket 10933]])"
 msgstr ""
 "In manchen Fällen hat das Senden einer E-Mail mit *Icedove* zu der "
-"Fehlermeldung \"Die Nachricht konnte nicht mit dem ausgehenden Server (SMTP) "
-"mail.riseup.net auf Grund eines unbekannten Fehlers nicht versendet werden."
+"Fehlermeldung \"Die Nachricht konnte auf Grund eines unbekannten Fehlers "
+"nicht über den Postausgangsserver (SMTP) mail.riseup.net  versendet werden."
 "\" geführt. ([[!tails_ticket 10933]])"
 
+# I think the problem appears, then a password was entered during the creation process. The password is not shown in the spurious error message. See bugtracker.
 #. type: Bullet: '- '
+#, fuzzy
 msgid ""
 "A spurious error message used to sometimes appear when creating an account "
 "in *Icedove* and providing its password.  ([[!tails_ticket 11550]])"
 msgstr ""
 "Eine falsche Fehlermeldung ist manchmal bei der Erstellung eines Kontos in "
-"*Icedove* aufgetreten und hat das Kennwort angezeigt. ([[!tails_ticket "
-"11550]])"
+"*Icedove* aufgetreten, wenn bei der Erstellung ein Passwort eingegeben "
+"wurde. ([[!tails_ticket 11550]])"
 
+# I think the decreasing timeout is part of the solution to fix the synchronization.
 #. type: Bullet: '- '
 msgid ""
 "Fix some time synchronization problems, by replacing obsolete and unreliable "
 "servers, and decreasing a timeout. ([[!tails_ticket 11577]])"
 msgstr ""
-"Beheben einiger Zeitsynchronisationsprobleme und Verringern der Verzögerung "
-"durch das Ersetzen veralteter und unzuverlässiger Server. ([[!tails_ticket "
-"11577]])"
+"Beheben einiger Zeitsynchronisationsprobleme durch das Ersetzen veralteter "
+"und unzuverlässiger Server und das Herabsetzen des Grenzwertes für einen "
+"Timeout. ([[!tails_ticket 11577]])"
 
 #. type: Bullet: '- '
 msgid ""
